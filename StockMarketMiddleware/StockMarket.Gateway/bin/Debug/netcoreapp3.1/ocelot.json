@@ -1,0 +1,77 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Account",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58909
+        }
+      ],
+      "UpstreamPathTemplate": "/Account/"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Account/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58909
+        }
+      ],
+      "UpstreamPathTemplate": "/Account/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Admin/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50453
+        }
+      ],
+      "UpstreamPathTemplate": "/Admin/{url}"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Admin",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50453
+        }
+      ],
+      "UpstreamPathTemplate": "/Admin/"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Excel/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50458
+        }
+      ],
+      "UpstreamPathTemplate": "/Excel/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50456
+        }
+      ],
+      "UpstreamPathTemplate": "/User/{url}"
+    }
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://loaclhost:49321"
+  }
+}
