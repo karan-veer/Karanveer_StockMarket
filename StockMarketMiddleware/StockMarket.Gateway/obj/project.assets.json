@@ -886,25 +886,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\socgend42\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Karanveer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Karanveer_StockMarket\\StockMarketMiddleware\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
+      "projectUniqueName": "D:\\code\\Karanveer_StockMarket\\StockMarketMiddleware\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
       "projectName": "StockMarket.Gateway",
-      "projectPath": "D:\\Karanveer_StockMarket\\StockMarketMiddleware\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
-      "packagesPath": "C:\\Users\\socgend42\\.nuget\\packages\\",
-      "outputPath": "D:\\Karanveer_StockMarket\\StockMarketMiddleware\\StockMarket.Gateway\\obj\\",
+      "projectPath": "D:\\code\\Karanveer_StockMarket\\StockMarketMiddleware\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
+      "packagesPath": "C:\\Users\\Karanveer\\.nuget\\packages\\",
+      "outputPath": "D:\\code\\Karanveer_StockMarket\\StockMarketMiddleware\\StockMarket.Gateway\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\socgend42\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Karanveer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -946,12 +941,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -960,7 +949,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
