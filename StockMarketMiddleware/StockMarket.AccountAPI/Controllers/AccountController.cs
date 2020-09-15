@@ -22,12 +22,12 @@ namespace StockMarket.AccountAPI.Controllers
 
             return Ok("Account Service");
         }
-        [HttpGet]
-        [Route("Validate/{uname}/{pwd}")]
-        public IActionResult Validate(string uname, string pwd) {
+        [HttpPost]
+        [Route("Validate")]
+        public IActionResult Validate(Users user) {
             try
             {
-                Users user = _service.Validate(uname, pwd);
+                Users user = _service.Validate(user.UserName,user.Password);
                 if (user == null)
                 {
                     return Content("Invalid User");
